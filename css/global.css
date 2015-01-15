@@ -1,0 +1,19 @@
+.banner {
+
+}
+
+.site-background {
+    background-image: url('../img/background.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 0 !important;
+    background-size: auto !important;
+    background-color: transparent !important;
+    background: inherit;
+    height:482px;
+    width:100%;
+}
+
+#content {
+    width:1000px;
+    height:800px;
+}
