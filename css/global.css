@@ -1,3 +1,8 @@
+
+body {
+    background: #232324;
+}
+
 .banner {
 
 }
@@ -11,6 +16,10 @@
     background: inherit;
     height:482px;
     width:100%;
+}
+
+#navigation {
+    width:585px;
 }
 
 #content {
