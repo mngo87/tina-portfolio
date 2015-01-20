@@ -4,10 +4,13 @@
 </div>
 <div id="navigation" class="center-block">
   <ul class="nav nav-pills">
-    <li role="presentation" id="home" class="active"><a href="/">Home</a></li>
-    <li role="presentation" id="drawings"><a href="./drawings.html">Drawings</a></li>
-    <li role="presentation" id="projects"><a href="./projects.html">3D Modeling Projects</a></li>
-    <li role="presentation" id="showreel"><a href="./showreel.html">Showreel</a></li>
-    <li role="presentation" id="contact"><a href="./contact.html">Information & Contact</a></li>
+    <li role="presentation" id="nav-home"><a href="./">Home</a></li>
+    <li role="presentation" id="nav-drawings"><a href="./drawings.html">Drawings</a></li>
+    <li role="presentation" id="nav-projects"><a href="./projects.html">3D Modeling Projects</a></li>
+    <li role="presentation" id="nav-showreel"><a href="./showreel.html">Showreel</a></li>
+    <li role="presentation" id="nav-contact"><a href="./contact.html">Information & Contact</a></li>
   </ul>
 </div>
+<script>
+    $("#nav-"+$('body').attr('id')).addClass("active");
+</script>

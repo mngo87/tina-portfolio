@@ -15,9 +15,13 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
+  <!-- Local css files -->
   <link rel="stylesheet" href="css/global.css">
+
+  <!-- Local javascript files -->
+  <script src=".//js/common.js"></script>
 </head>
-<body>
+<body id="home">
   <div id="header">
   </div>
   <!--<div class="site-background"></div>-->
@@ -35,12 +39,10 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner carousel-images" role="listbox">
           <div class="item active">
             <img src="./img/gocart_orig.jpg" class="center-block" />
-            <div class="carousel-caption">
-              car
-            </div>
+            <div class="carousel-caption">car</div>
           </div>
           <div class="item">
             <img src="./img/bazooka_orig.jpg" class="center-block" />
@@ -76,9 +78,5 @@
       </div>
     </div>
   </div>
-
-  <script>
-    $('#header').load("header.html")
-  </script>
 </body>
 </html>
