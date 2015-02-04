@@ -1,3 +1,6 @@
+.container.banner .carousel-inner .item img{
+ margin: 0 auto;
+}
 
 body {
     background: #232324;
