@@ -33,3 +33,11 @@ body {
 .carousel-images {
     height:720px;
 }
+
+.gallary-links {
+    width:860px;
+}
+
+.gallary-links img {
+    margin:12px;
+}
