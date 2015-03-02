@@ -1,0 +1,19 @@
+/* Blueimp gallery extension */
+
+.blueimp-gallery p {
+    margin: 0px;
+}
+
+.blueimp-gallery > .description {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 30px;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.blueimp-gallery-controls > .description {
+  display: block;
+}
