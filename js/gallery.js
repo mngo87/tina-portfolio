@@ -9,7 +9,7 @@ $(document).ready(function() {
         .on('slide', function (event, index, slide) {
             console.log("slide");
 
-            var links = $('#links').children();
+            var links = $(this).data('gallery').list;
             var descText = $(links[index]).data('description');
             var descNode = $(this).find('.description');
 

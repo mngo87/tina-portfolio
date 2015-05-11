@@ -34,10 +34,14 @@ body {
     height:720px;
 }
 
-.gallary-links {
+.gallery-links {
     width:860px;
 }
 
-.gallary-links img {
+.gallery-links img {
     margin:12px;
+}
+
+h2 {
+    color:white;
 }
