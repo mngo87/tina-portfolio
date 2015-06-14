@@ -39,28 +39,28 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner carousel-images" role="listbox">
-          <div class="item active">
-            <img src="./img/gocart_orig.jpg" class="center-block" />
+        <div class="carousel-inner carousel-images table-parent" role="listbox">
+          <div class="item item2 active">
+            <img src="./img/go_car/go_car_color_orig.jpg" class="center-block" />
             <div class="carousel-caption">car</div>
           </div>
-          <div class="item">
-            <img src="./img/bazooka_orig.jpg" class="center-block" />
+          <div class="item item2">
+            <img src="./img/bazooka/bazooka_color_orig.jpg" class="center-block" />
             <div class="carousel-caption">bazooka</div>
           </div>
-          <div class="item">
-            <img src="./img/fairy_orig.jpg" class="center-block" />
+          <div class="item item2">
+            <img src="./img/fairy/toadstool_fairy_clay_orig.jpg" class="center-block" />
             <div class="carousel-caption">fairy</div>
           </div>
-          <div class="item">
-            <img src="./img/ff7_orig.jpg" class="center-block" />
+          <div class="item item2">
+            <img src="./img/zack_orig.jpg" class="center-block" />
             <div class="carousel-caption">ff7</div>
           </div>
-          <div class="item">
-            <img src="./img/girlsketch_orig.jpg" class="center-block" />
+          <div class="item item2">
+            <img src="./img/portrait_sketch_orig.jpg" class="center-block" />
             <div class="carousel-caption">girlsketch</div>
           </div>
-          <div class="item">
+          <div class="item item2">
             <img src="./img/lady_orig.jpg" class="center-block" />
             <div class="carousel-caption">lady</div>
           </div>
@@ -78,5 +78,11 @@
       </div>
     </div>
   </div>
+  <script>
+   $('.carousel').on('slid.bs.carousel', function(event) {
+       $(event.relatedTarget)
+       console.log("BOOM");
+   })
+  </script>
 </body>
 </html>

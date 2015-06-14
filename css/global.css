@@ -30,8 +30,8 @@ body {
     height:800px;
 }
 
-.carousel-images {
-    height:720px;
+#content-body {
+    margin-top:20px;
 }
 
 .gallery-links {
@@ -44,4 +44,14 @@ body {
 
 h2 {
     color:white;
+}
+
+.carousel-images {
+    display:table;
+    height:720px;
+}
+
+.item2 {
+    display:table-cell;
+    vertical-align:middle;
 }
