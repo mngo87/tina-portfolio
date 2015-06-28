@@ -3,11 +3,40 @@
 }
 
 body {
-    background: #232324;
+    background: #0C0C0C;
+    font-family: 'Goudy Old Style';
 }
 
-.banner {
+#banner {
+    background: #221522;
+}
 
+a {
+    color: #B6C1AC;
+    text-decoration: none;
+}
+
+a:hover,a:focus {
+    color: #B6C1AC;
+    text-decoration: none
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+#banner-title {
+    height: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
 }
 
 .site-background {
