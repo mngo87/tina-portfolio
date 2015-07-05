@@ -28,11 +28,19 @@ a:focus {
 }
 
 #banner-title {
-    height: 150px;
+    height: 130px;
     display: table-cell;
     vertical-align: middle;
     float: none;
     padding: 0px;
+}
+
+#banner-title div {
+    margin-left:20px;
+}
+
+.row {
+    position:relative;
 }
 
 .no-margin {
