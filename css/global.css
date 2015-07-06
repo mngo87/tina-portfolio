@@ -39,12 +39,12 @@ a:focus {
     margin-left:20px;
 }
 
-.row {
-    position:relative;
-}
-
 .no-margin {
     margin: 0px;
+}
+
+.logos {
+    margin:15px 0px 10px 0px;
 }
 
 .site-background {
