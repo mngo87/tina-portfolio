@@ -1,5 +1,5 @@
 <div id="banner" class="">
-  <div id="banner-contents" class="container">
+  <div id="banner-contents" class="container-fluid">
     <div class="row">
       <div class="col-md-6 col-md-offset-1">
         <img class="pull-left img-responsive" src="./img/logo.png" width="110" height="110" style="margin:10px 0px;" />
@@ -13,19 +13,26 @@
         </div>
       </div>
       <div class="col-md-4 logos text-right">
-        <img src="./img/logos/In-2C-48px-R.png" />
+        <a target="_blank" href="http://www.deviantart.com/browse/all/?qh=&section=&global=1&q=emberrabbit">
+          <img src="./img/logos/deviantart-logo.png" height="32" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/pub/tina-wong/74/315/239/">
+          <img src="./img/logos/In-2CRev-34px-R.png" height="32" />
+        </a>
+      </div>
+    </div>
+    <div class="row navigation-row">
+      <div id="navigation" class="text-center">
+        <ul class="nav nav-pills list-inline">
+          <li role="presentation" id="nav-home"><a href="./">Home</a></li>
+          <li role="presentation" id="nav-drawings"><a href="./drawings.html">Character Models</a></li>
+          <li role="presentation" id="nav-projects"><a href="./projects.html">Asset Models</a></li>
+          <li role="presentation" id="nav-showreel"><a href="./showreel.html">Concept Art</a></li>
+          <li role="presentation" id="nav-contact"><a href="./contact.html">About</a></li>
+        </ul>
       </div>
     </div>
   </div>
-</div>
-<div id="navigation" class="center-block">
-  <ul class="nav nav-pills">
-    <li role="presentation" id="nav-home"><a href="./">Home</a></li>
-    <li role="presentation" id="nav-drawings"><a href="./drawings.html">Drawings</a></li>
-    <li role="presentation" id="nav-projects"><a href="./projects.html">3D Modeling Projects</a></li>
-    <li role="presentation" id="nav-showreel"><a href="./showreel.html">Showreel</a></li>
-    <li role="presentation" id="nav-contact"><a href="./contact.html">Information & Contact</a></li>
-  </ul>
 </div>
 <script>
     $("#nav-"+$('body').attr('id')).addClass("active");
