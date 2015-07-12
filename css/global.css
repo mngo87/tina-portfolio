@@ -1,13 +1,9 @@
-.container.banner .carousel-inner .item img{
- margin: 0 auto;
-}
-
 body {
     background: #0C0C0C;
     font-family: 'Goudy Old Style';
 }
 
-#banner {
+#header-contents {
     background: #221522;
 }
 
@@ -27,6 +23,14 @@ a:focus {
     outline-offset: -2px
 }
 
+.no-margin {
+    margin: 0px;
+}
+
+.banner-row {
+    max-width: 800px;
+}
+
 #banner-title {
     height: 130px;
     display: table-cell;
@@ -39,27 +43,12 @@ a:focus {
     margin-left:20px;
 }
 
-.no-margin {
-    margin: 0px;
-}
-
 .logos {
     margin:15px 0px 10px 0px;
 }
 
 .logos > a {
     margin:0px 5px;
-}
-
-.site-background {
-    background-image: url('../img/background.jpg') !important;
-    background-repeat: no-repeat !important;
-    background-position: 50% 0 !important;
-    background-size: auto !important;
-    background-color: transparent !important;
-    background: inherit;
-    height:482px;
-    width:100%;
 }
 
 .navigation-row {
@@ -79,8 +68,8 @@ a:focus {
     display:inline-block;
 }
 
-#content {
-    width:1000px;
+#carousel-content {
+    width:800px;
     height:800px;
 }
 
