@@ -1,22 +1,12 @@
-body {
-    background: #0C0C0C;
-    font-family: 'Goudy Old Style';
-}
-
-#header-contents {
-    background: #221522;
-}
-
+/* Bootstrap Overrides*/
 a {
     color: #B6C1AC;
     text-decoration: none;
 }
-
 a:hover,a:focus {
     color: #B6C1AC;
     text-decoration: none
 }
-
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -25,6 +15,11 @@ a:focus {
 
 .no-margin {
     margin: 0px;
+}
+
+/* Header */
+#header-contents {
+    background: #221522;
 }
 
 .banner-row {
@@ -68,15 +63,28 @@ a:focus {
     display:inline-block;
 }
 
-#carousel-content {
-    width:800px;
-    height:800px;
+/* Body */
+body {
+    background: #0C0C0C;
+    font-family: 'Goudy Old Style';
 }
 
 #content-body {
     margin-top:20px;
 }
 
+.carousel-images {
+    display:table;
+    height:720px;
+}
+
+/* Carousel */
+#carousel-home {
+    width:860px;
+    height:800px;
+}
+
+/* Gallery */
 .gallery-links {
     width:860px;
 }
@@ -87,11 +95,6 @@ a:focus {
 
 h2 {
     color:white;
-}
-
-.carousel-images {
-    display:table;
-    height:720px;
 }
 
 .item2 {
