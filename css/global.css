@@ -97,6 +97,13 @@ h2 {
     color:white;
 }
 
+#carousel-home .item img {
+    height: 500px;
+    display: block;
+    width: auto;
+    max-width:860px;
+}
+
 .item2 {
     display:table-cell;
     vertical-align:middle;
