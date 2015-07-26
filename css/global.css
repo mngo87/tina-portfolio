@@ -1,3 +1,9 @@
+body {
+    background: #0C0C0C;
+    font-family: 'Goudy Old Style';
+    color: #B6C1AC;
+}
+
 /* Bootstrap Overrides*/
 a {
     color: #B6C1AC;
@@ -64,47 +70,21 @@ a:focus {
 }
 
 /* Body */
-body {
-    background: #0C0C0C;
-    font-family: 'Goudy Old Style';
-}
-
-#content-body {
+#content {
     margin-top:20px;
 }
 
-.carousel-images {
-    display:table;
-    height:720px;
+#content-body {
+    width:860px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Carousel */
-#carousel-home {
-    width:860px;
-    height:800px;
-}
-
-/* Gallery */
-.gallery-links {
-    width:860px;
-}
-
-.gallery-links img {
-    margin:12px;
-}
-
-h2 {
-    color:white;
-}
-
 #carousel-home .item img {
     height: 500px;
     display: block;
     width: auto;
     max-width:860px;
-}
-
-.item2 {
-    display:table-cell;
-    vertical-align:middle;
 }
