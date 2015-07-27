@@ -83,6 +83,20 @@ a:focus {
     margin-right: auto;
 }
 
+#content-body > p {
+    margin-top:0px;
+    margin-bottom:20px;
+}
+
+#content-body ul {
+    margin-top:0px;
+    margin-bottom:20px;
+}
+
+.mini-header {
+    font-size:20px;
+}
+
 /* Carousel */
 #carousel-home .item img {
     height: 500px;
