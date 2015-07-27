@@ -16,9 +16,20 @@
   bottom: 30px;
   color: #fff;
   text-align: center;
-  display: none;
 }
 
 .blueimp-gallery-controls > .description {
   display: block;
+}
+
+.blueimp-gallery > .title {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin: 0 40px 0 0;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  opacity: 0.8;
 }
