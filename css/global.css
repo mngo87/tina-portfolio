@@ -24,6 +24,16 @@ a:focus {
     margin: 0px;
 }
 
+/* Bootstrap */
+.bootstrap {
+    color: #337ab7;
+    text-decoration: none;
+}
+.bootstrap:hover,.bootstrap:focus {
+    color: #337ab7;
+    text-decoration: none;
+}
+
 /* Header */
 #header-contents {
     background: #221522;
