@@ -114,3 +114,8 @@ a:focus {
     width: auto;
     max-width:860px;
 }
+
+/* Showreel */
+.showreel-video {
+    margin-bottom:20px;
+}
